@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem07 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int answer;
@@ -34,6 +34,6 @@ public class Problem07 {
         System.out.println("============================");
         System.out.println("   [숫자맞추기게임 종료]");
         System.out.println("============================");
-        Scanner.close();
+
     }
 }
