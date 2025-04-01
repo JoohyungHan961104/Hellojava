@@ -1,0 +1,74 @@
+package ch06.sec08.exam03;
+
+public class Hotteok2 {
+	int price = 700;
+// 호떡 가격 선언
+	public int Price() {
+		return price;
+	}
+}
+
+package ch06.sec08.exam03;
+
+public class Redbean {
+	int price = 700;
+// 호떡 가격 선언
+	public int Price() {
+		return price;
+	}
+}
+
+package ch06.sec08.exam03;
+
+public class Cream {
+	int price = 1000;
+// 호떡 가격 선언
+	public int Price() {
+		return price;
+	}
+}
+
+package ch06.sec08.exam03;
+
+public class SeedHotteok {
+	int price = 900;
+// 호떡 가격 선언
+	public int Price() {
+		return price;
+	}
+}
+
+package ch06.sec08.exam03;
+
+import java.util.Scanner;
+
+public class ShopProgram {
+	  public static void main(String[] args) {
+		    // 빵값 계산기
+		
+		    ShopProgram[] sp = new ShopProgram[];
+		   
+		    Scanner sc = new Scanner();
+		    
+		    fb[0] = new Bungeobbang();
+		    fb[1] = new Bungeobbang();
+		    fb[2] = new Bungeobbang();
+		    
+		    // 호떡 5개 만들기
+		 Hotteok[] pb = new Hotteok[5];
+		    for(int i=0; i<pb.length; i++) {
+		      pb[i] = new Hotteok();
+		    }
+		    
+		    
+		    // 붕어빵 갯수 * 붕어빵 고유가격 = 붕어빵 3개 가격
+		    int fbPrice = fb.length * fb[0].price ;
+		    int pbPrice = pb.length * pb[0].price;
+		    
+		    int total = fbPrice + pbPrice;
+		    
+		    System.out.println(total);
+
+		  }
+
+		}
